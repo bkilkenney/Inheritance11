@@ -14,6 +14,18 @@ namespace Inheritance11
 
             myCar.Year = 1989;
             Console.WriteLine(myCar.Year);
+
+            Toyota myToyota = new Toyota();
+            Console.WriteLine("What Country was your car manufactured in?");
+            myToyota.Country = Console.ReadLine();
+
+            Console.WriteLine(myToyota.Country);
+            Console.ReadLine();
+
+
+            
+            
+            
         }
     }
 }
