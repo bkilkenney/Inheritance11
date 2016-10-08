@@ -10,21 +10,16 @@ namespace Inheritance11
     {
         static void Main(string[] args)
         {
-            Car myCar = new Car();
+            Sedan mySedan = new Sedan();
 
-            myCar.Year = 1989;
-            Console.WriteLine(myCar.Year);
-
-            Toyota myToyota = new Toyota();
-            Console.WriteLine("What Country was your car manufactured in?");
-            myToyota.Country = Console.ReadLine();
-
-            Console.WriteLine(myToyota.Country);
-            Console.ReadLine();
+            mySedan.Country = "Japan";
+            mySedan.Make = "Toyota";
+            mySedan.Model = "Camry";
+            mySedan.Year = 2000;
 
 
-            
-            
+            Car mvaCar = new Car();
+            mvaCar.
             
         }
     }
